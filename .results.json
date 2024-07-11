@@ -2,18 +2,18 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 8,
+    "passes": 10,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-06-28T12:15:46.609Z",
-    "end": "2024-06-28T12:15:47.124Z",
-    "duration": 515
+    "failures": 0,
+    "start": "2024-07-11T07:09:47.933Z",
+    "end": "2024-07-11T07:09:48.536Z",
+    "duration": 603
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 2,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -22,12 +22,7 @@
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
       "duration": 2,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome to Flatbook,Victor!' to contain 'Welcome to Flatbook, '",
-        "showDiff": false,
-        "actual": "Welcome to Flatbook,Victor!",
-        "stack": "AssertionError: expected 'Welcome to Flatbook,Victor!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:13:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
@@ -46,14 +41,9 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK,VICTOR!' to contain 'WELCOME TO FLATBOOK, '",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK,VICTOR!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK,VICTOR!' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:27:45)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
@@ -79,7 +69,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -92,36 +82,18 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "contains \"Welcome to Flatbook, \"",
-      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome to Flatbook,Victor!' to contain 'Welcome to Flatbook, '",
-        "showDiff": false,
-        "actual": "Welcome to Flatbook,Victor!",
-        "stack": "AssertionError: expected 'Welcome to Flatbook,Victor!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:13:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    },
-    {
-      "title": "contains \"WELCOME TO FLATBOOK, \"",
-      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK,VICTOR!' to contain 'WELCOME TO FLATBOOK, '",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK,VICTOR!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK,VICTOR!' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:27:45)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
       "duration": 2,
       "currentRetry": 0,
       "err": {}
@@ -136,6 +108,13 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"WELCOME TO FLATBOOK, \"",
+      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -164,7 +143,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
